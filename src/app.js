@@ -13,6 +13,4 @@ app.set('view engine', 'ejs');
 
 app.use('/', home); //미들웨어 등록하는 메서드
 
-app.listen(PORT, ()=> {
-    console.log('server starting on 3000');
-});
+module.exports = app;
